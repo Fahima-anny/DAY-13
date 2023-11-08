@@ -1,0 +1,82 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    border: 5px solid rgb(0, 0, 0);
+    padding: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 90vh;
+    width: 70vw;
+    background-color: rgb(82, 78, 78);
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+#one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    flex-direction: row-reverse;
+    background-color: rgb(180, 236, 227);
+    height: 20vh;
+    width: 70vw;
+    border: 2px groove rgb(97, 1, 1);
+    
+}
+#two{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    flex-direction: row-reverse;
+    background-color:  rgb(180, 236, 227);
+    height: 20vh;
+    width: 70vw;
+    border: 2px groove rgb(97, 1, 1);
+}
+#three{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    flex-direction: row-reverse;
+    background-color: rgb(180, 236, 227);
+    height: 20vh;
+    width: 70vw;
+    border: 2px groove rgb(97, 1, 1);
+}
+#four{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    flex-direction: row-reverse;
+    background-color: rgb(180, 236, 227);
+    height: 20vh;
+    width: 70vw;
+    border: 2px groove rgb(97, 1, 1);
+}
+#five{
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(180, 236, 227);
+    height: 20vh;
+    width: 70vw;
+    border: 2px groove rgb(97, 1, 1);
+}
+button{
+    height: 10vh;
+    width: 20vw;
+    background-color:rgb(46, 43, 43);
+    border: 3px solid black;
+    font-size: 30px;
+color: aliceblue;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
